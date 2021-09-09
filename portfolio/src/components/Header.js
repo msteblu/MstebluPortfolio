@@ -27,11 +27,25 @@ export default function Header() {
     const handlePageChange = (page) => setCurrentPage(page);
   
     return (
-      <div>
-        {/* We are passing the currentPage from state and the function to update it */}
-        <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
-        {/* Here we are calling the renderPage method which will return a component  */}
-        {renderPage()}
+        <div>
+        <nav class="navbar sticky-top navbar-dark bg-dark">
+        <div class="container-fluid">
+          <span class="navbar-brand mb-0 h1">msteblu</span>
+          {/* We are passing the currentPage from state and the function to update it */}
+          <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
+        </div>
+      </nav>
+      {/* Here we are calling the renderPage method which will return a component  */}
+      {renderPage()}
       </div>
     );
 }
+
+
+
+//        <div>
+//        {/* We are passing the currentPage from state and the function to update it */}
+//        <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
+//        {/* Here we are calling the renderPage method which will return a component  */}
+//        {renderPage()}
+//        </div>

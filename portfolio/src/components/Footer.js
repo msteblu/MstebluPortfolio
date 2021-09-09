@@ -5,6 +5,7 @@ export default function Footer() {
     <footer>
         <p>Github</p>
         <p>LinkedIn</p>
+        <p>StackOverflow</p>
     </footer>
   );
 }
