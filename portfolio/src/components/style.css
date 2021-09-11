@@ -1,0 +1,55 @@
+/* Variables */
+:root {
+    --rosepink: #FF748C;
+    --lightpink: #FFC0CB;
+}
+
+/* Body */
+body {
+    background-image: url("./assets/images/rose.png");
+    background-repeat: no-repeat;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+h1 {
+    font-family: 'Satisfy', cursive;
+    padding: 1.75rem;
+}
+
+a:hover {
+    color: var(--rosepink);
+}
+
+a {
+    color: black;
+}
+
+.extra-btn:hover {
+    background-color: var(--lightpink)
+}
+
+.photo {
+    width: 40%;
+    height: auto;
+    border: 10% inset black;
+    border-radius: 50%;
+    margin: 1.5rem;
+}
+
+.navbar {
+    border-bottom: 1px solid black;
+}
+
+.navbar-toggler {
+    color: black;
+}
+
+.pink {
+    /* background-color: var(--lightpink); */
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.863) , var(--lightpink));
+}
+
+.card-text {
+    width: 100%;
+    min-height: 150px;
+}

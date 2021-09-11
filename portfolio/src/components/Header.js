@@ -28,7 +28,7 @@ export default function Header() {
   
     return (
         <div>
-        <nav className="navbar sticky-top navbar-dark bg-dark">
+        <nav className="navbar sticky-top navbar-light pink shadow-sm">
         <div className="container-fluid">
           <span className="navbar-brand mb-0 h1">msteblu</span>
           {/* We are passing the currentPage from state and the function to update it */}
