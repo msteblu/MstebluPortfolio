@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/MstebluPortfolio/static/css/main.533c7449.chunk.css",
-    "main.js": "/MstebluPortfolio/static/js/main.799e3e8c.chunk.js",
-    "main.js.map": "/MstebluPortfolio/static/js/main.799e3e8c.chunk.js.map",
+    "main.css": "/MstebluPortfolio/static/css/main.3191620a.chunk.css",
+    "main.js": "/MstebluPortfolio/static/js/main.dc0c2eda.chunk.js",
+    "main.js.map": "/MstebluPortfolio/static/js/main.dc0c2eda.chunk.js.map",
     "runtime-main.js": "/MstebluPortfolio/static/js/runtime-main.3c1e9334.js",
     "runtime-main.js.map": "/MstebluPortfolio/static/js/runtime-main.3c1e9334.js.map",
     "static/css/2.f2512455.chunk.css": "/MstebluPortfolio/static/css/2.f2512455.chunk.css",
@@ -10,7 +10,7 @@
     "static/js/2.8d273065.chunk.js.map": "/MstebluPortfolio/static/js/2.8d273065.chunk.js.map",
     "index.html": "/MstebluPortfolio/index.html",
     "static/css/2.f2512455.chunk.css.map": "/MstebluPortfolio/static/css/2.f2512455.chunk.css.map",
-    "static/css/main.533c7449.chunk.css.map": "/MstebluPortfolio/static/css/main.533c7449.chunk.css.map",
+    "static/css/main.3191620a.chunk.css.map": "/MstebluPortfolio/static/css/main.3191620a.chunk.css.map",
     "static/js/2.8d273065.chunk.js.LICENSE.txt": "/MstebluPortfolio/static/js/2.8d273065.chunk.js.LICENSE.txt",
     "static/media/Dashboard.43fa6dbf.gif": "/MstebluPortfolio/static/media/Dashboard.43fa6dbf.gif",
     "static/media/ECommerce.aecb576b.gif": "/MstebluPortfolio/static/media/ECommerce.aecb576b.gif",
@@ -19,14 +19,16 @@
     "static/media/Profile.ad8ee2f8.jpeg": "/MstebluPortfolio/static/media/Profile.ad8ee2f8.jpeg",
     "static/media/Resume_MSS.142fdfc5.pdf": "/MstebluPortfolio/static/media/Resume_MSS.142fdfc5.pdf",
     "static/media/Trivialympics.0d405004.gif": "/MstebluPortfolio/static/media/Trivialympics.0d405004.gif",
+    "static/media/linkedInIcon.9a1a7f81.png": "/MstebluPortfolio/static/media/linkedInIcon.9a1a7f81.png",
     "static/media/style.css": "/MstebluPortfolio/static/media/rose.d4afecb3.png",
+    "static/media/stackoverflow.213bb10f.png": "/MstebluPortfolio/static/media/stackoverflow.213bb10f.png",
     "static/media/weather.2c8617f3.png": "/MstebluPortfolio/static/media/weather.2c8617f3.png"
   },
   "entrypoints": [
     "static/js/runtime-main.3c1e9334.js",
     "static/css/2.f2512455.chunk.css",
     "static/js/2.8d273065.chunk.js",
-    "static/css/main.533c7449.chunk.css",
-    "static/js/main.799e3e8c.chunk.js"
+    "static/css/main.3191620a.chunk.css",
+    "static/js/main.dc0c2eda.chunk.js"
   ]
 }
