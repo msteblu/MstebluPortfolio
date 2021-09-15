@@ -1,25 +1,22 @@
 import React from 'react';
-import gitHub from './assets/GitHub.png';
-import linkedIn from './assets/LI.png';
+import gitHub from './assets/icons/githubIcon.png';
+import linkedIn from './assets/icons/linkedInIcon.png';
+import stackOverflow from './assets/icons/stackoverflow.png';
 
 export default function Footer() {
   return (
-    <footer>
-        <img src={gitHub} alt="GitHub Logo"></img>
-        <img src={linkedIn} alt="LinkedIn Logo"></img>
-        {/* <img href=".../public/assets/GitHub.png"></img> */}
-        <p>Github</p>
-        <p>LinkedIn</p>
-        <p>StackOverflow</p>
+    <footer className="footer mt-auto py-3 bg-light pink">
+      <div className="container d-flex justify-content-center">
+        <a href="https://github.com/msteblu" target="_blank" rel="noreferrer">
+          <img className="icon" src={gitHub} alt="GitHub Logo"></img>
+        </a>
+        <a href="https://www.linkedin.com/in/megan-steblay-65a5321b5/" target="_blank" rel="noreferrer">
+          <img className="icon" src={linkedIn} alt="LinkedIn Logo"></img>
+        </a>
+        <a href="https://stackoverflow.com/users/15417427/msteblu" target="_blank" rel="noreferrer">
+          <img className="icon" src={stackOverflow} alt="StackOverflow Logo"></img>
+        </a>
+      </div>
     </footer>
   );
 }
-
-
-{/* <footer class="text-muted py-5">
-        <div class="container">
-            <p class="float-end mb-1">
-            <a href="#">Back to top</a>
-            </p>
-        </div>
-    </footer> */}
