@@ -36,9 +36,15 @@ a {
     margin: 1.5rem;
 }
 
-.navbar {
-    border-bottom: 1px solid black;
+.icon {
+    width: 3rem;
+    height: auto;
+    margin: 1.5rem;
 }
+
+/* .navbar {
+    border-bottom: 1px solid black;
+} */
 
 .navbar-toggler {
     color: black;
@@ -52,4 +58,17 @@ a {
 .card-text {
     width: 100%;
     min-height: 150px;
+}
+
+.form {
+    text-align: center;
+    max-width: 300px;
+    margin: 20px auto;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.863) , var(--lightpink));
+}
+
+form {
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    padding: 20px;
 }
