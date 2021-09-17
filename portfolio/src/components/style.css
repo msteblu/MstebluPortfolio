@@ -1,45 +1,45 @@
 /* Variables */
 :root {
-    --rosepink: #FF748C;
-    --lightpink: #FFC0CB;
+  --rosepink: #ff748c;
+  --lightpink: #ffc0cb;
 }
 
 /* Body */
 body {
-    background-image: url("./assets/images/rose.png");
-    background-repeat: no-repeat;
-    font-family: 'Montserrat Alternates', sans-serif;
+  background-image: url("./assets/images/rose.png");
+  background-repeat: no-repeat;
+  font-family: "Montserrat Alternates", sans-serif;
 }
 
 h1 {
-    font-family: 'Satisfy', cursive;
-    padding: 1.75rem;
+  font-family: "Satisfy", cursive;
+  padding: 1.75rem;
 }
 
 a:hover {
-    color: var(--rosepink);
+  color: var(--rosepink);
 }
 
 a {
-    color: black;
+  color: black;
 }
 
 .extra-btn:hover {
-    background-color: var(--lightpink)
+  background-color: var(--lightpink);
 }
 
 .photo {
-    width: 40%;
-    height: auto;
-    border: 10% inset black;
-    border-radius: 50%;
-    margin: 1.5rem;
+  width: 40%;
+  height: auto;
+  border: 10% inset black;
+  border-radius: 50%;
+  margin: 1.5rem;
 }
 
 .icon {
-    width: 3rem;
-    height: auto;
-    margin: 1.5rem;
+  width: 3rem;
+  height: auto;
+  margin: 1.5rem;
 }
 
 /* .navbar {
@@ -47,28 +47,44 @@ a {
 } */
 
 .navbar-toggler {
-    color: black;
+  color: black;
+}
+
+.nav-link {
+  color: black;
 }
 
 .pink {
-    /* background-color: var(--lightpink); */
-    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.863) , var(--lightpink));
+  /* background-color: var(--lightpink); */
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0.863),
+    var(--lightpink)
+  );
 }
 
 .card-text {
-    width: 100%;
-    min-height: 150px;
+  width: 100%;
+  min-height: 150px;
 }
 
 .form {
-    text-align: center;
-    max-width: 300px;
-    margin: 20px auto;
-    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.863) , var(--lightpink));
+  text-align: center;
+  max-width: 300px;
+  margin: 3rem auto;
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0.863),
+    var(--lightpink)
+  );
 }
 
 form {
-    border: 1px solid lightgray;
-    border-radius: 10px;
-    padding: 20px;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.error-text {
+  color: red;
 }
