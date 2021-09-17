@@ -32,8 +32,8 @@ function Form() {
     e.preventDefault();
 
     // First we check to see if the email is not valid or if the userName is empty. If so we set an error message to be displayed on the page.
-    if (!validateEmail(email) || !userName) {
-      setErrorMessage('Email or username is invalid');
+    if (!validateEmail(email)) {
+      setErrorMessage('Email is invalid');
       // We want to exit out of this code block if something is wrong so that the user can correct it
       return;
       // Then we check to see if the message is not valid. If so, we set an error message regarding the message.
@@ -50,38 +50,57 @@ function Form() {
   return (
     <div>
       <form className="form">
-        <input
-          value={userName}
-          name="userName"
-          onChange={handleInputChange}
-          type="text"
-          placeholder="Name"
-        />
+        <h1>Contact</h1>
 
-        <input
+        <div class="form-floating mb-3">
+          <input 
+            type="text" 
+            class="form-control" 
+            id="floatingInput" 
+            placeholder="Name" 
+            value={userName} 
+            onChange={handleInputChange}/>
+          <label for="floatingInput">Name:</label>
+        </div>
+
+        <div class="form-floating mb-3">
+          <input type="email" 
+          class="form-control" 
+          id="floatingInput" 
+          placeholder="name@example.com"
           value={email}
-          name="email"
-          onChange={handleInputChange}
-          type="email"
-          placeholder="Email"
-        />
+          onChange={handleInputChange}/>
+          <label for="floatingInput">Email address:</label>
+        </div>
 
-        <input
-          value={message}
-          name="message"
-          onChange={handleInputChange}
-          type="message"
+        <div class="form-floating mb-3">
+          <input type="text" 
+          class="form-control" 
+          id="floatingInput" 
           placeholder="Message"
-        />
-        <button type="button" onClick={handleFormSubmit}>Submit</button>
+          value={message}
+          onChange={handleInputChange}
+          />
+          <label for="floatingInput">Message:</label>
+        </div>
+
+        <small class="form-text text-muted">This is where errors appear.</small>
+        <button type="button" className="btn btn-sm btn-outline-secondary extra-btn" onClick={handleFormSubmit}>Submit</button>
       </form>
       {errorMessage && (
         <div>
           <p className="error-text">{errorMessage}</p>
         </div>
       )}
+      <div className="text-center">
+        <p class="text-muted">Or contact me here:</p>
+        <p class="text-muted">Email: megan@steblay.net</p>
+        <p class="text-muted">Phone: 651.504.5238</p>
+      </div>
     </div>
   );
 }
 
 export default Form;
+
+      
