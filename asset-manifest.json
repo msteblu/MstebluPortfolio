@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/MstebluPortfolio/static/css/main.3191620a.chunk.css",
-    "main.js": "/MstebluPortfolio/static/js/main.e742305f.chunk.js",
-    "main.js.map": "/MstebluPortfolio/static/js/main.e742305f.chunk.js.map",
+    "main.css": "/MstebluPortfolio/static/css/main.b35311dd.chunk.css",
+    "main.js": "/MstebluPortfolio/static/js/main.2c0c952a.chunk.js",
+    "main.js.map": "/MstebluPortfolio/static/js/main.2c0c952a.chunk.js.map",
     "runtime-main.js": "/MstebluPortfolio/static/js/runtime-main.3c1e9334.js",
     "runtime-main.js.map": "/MstebluPortfolio/static/js/runtime-main.3c1e9334.js.map",
     "static/css/2.f2512455.chunk.css": "/MstebluPortfolio/static/css/2.f2512455.chunk.css",
@@ -10,7 +10,7 @@
     "static/js/2.8d273065.chunk.js.map": "/MstebluPortfolio/static/js/2.8d273065.chunk.js.map",
     "index.html": "/MstebluPortfolio/index.html",
     "static/css/2.f2512455.chunk.css.map": "/MstebluPortfolio/static/css/2.f2512455.chunk.css.map",
-    "static/css/main.3191620a.chunk.css.map": "/MstebluPortfolio/static/css/main.3191620a.chunk.css.map",
+    "static/css/main.b35311dd.chunk.css.map": "/MstebluPortfolio/static/css/main.b35311dd.chunk.css.map",
     "static/js/2.8d273065.chunk.js.LICENSE.txt": "/MstebluPortfolio/static/js/2.8d273065.chunk.js.LICENSE.txt",
     "static/media/Dashboard.43fa6dbf.gif": "/MstebluPortfolio/static/media/Dashboard.43fa6dbf.gif",
     "static/media/ECommerce.aecb576b.gif": "/MstebluPortfolio/static/media/ECommerce.aecb576b.gif",
@@ -28,7 +28,7 @@
     "static/js/runtime-main.3c1e9334.js",
     "static/css/2.f2512455.chunk.css",
     "static/js/2.8d273065.chunk.js",
-    "static/css/main.3191620a.chunk.css",
-    "static/js/main.e742305f.chunk.js"
+    "static/css/main.b35311dd.chunk.css",
+    "static/js/main.2c0c952a.chunk.js"
   ]
 }
